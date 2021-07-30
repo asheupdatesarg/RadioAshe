@@ -59,7 +59,7 @@ li img{
   	position:relative;
   	transform: translate(-50%, 0%);
   	min-width:600px;
-	background:#F2A81D;
+	background-color:#F2A81D;
 	padding:40px;
 	border: 1px solid black;
 }
