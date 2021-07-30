@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title> Personaliza tu mensaje </title>
-    <link rel="stylesheet" href="estilo-login.css"> <!-- CAMBIO: Adaptar link a CSS -->
+    <link rel="stylesheet" href="estilo-login.css">
+    <?php $tipo=$_GET['Cancion']; ?> <!-- CAMBIO: Adaptar link a CSS -->
   </head>
   <body>
     <div class="login-box">
-      <h1> Selecciona el país de la radio: </h1>
+      <h1> Selecciona el país de la radio: <?php echo $tipo; ?> </h1>
         <!-- ENTRADA DE NOMBRE DE USUARIO -->
-        <a href="URL DESTINO"><img class= "imagenE"  width="400" height="300" src="img/esp.png"></a>
+        <a  href="final.html?idCancion=12"><img class= "imagenE"  width="400" height="300" src="img/esp.png"></a>
         &nbsp;
         <a href="URL DESTINO"><img class="imagenE"  width="150" height="70" src="img/arg.png"></a>
         &nbsp;
